@@ -9,9 +9,11 @@
 }
 
 :root {
-  --white: #f2f2f2;
+  --lightMode: linear-gradient(to right, #CACAD1, #261536);
   --purpleLight: #998da6;
-  --purpleDark: #353340;
+  --purpleMedium: #332839;
+  --purpleDark: #1F0321;
+  --darkMode: #261536;
   --fontBig: 3rem;
   --fontMedium: 2.25rem;
   --fontSmall: 1.25rem;
@@ -42,7 +44,7 @@ body {
   font-family: var(--roboto);
   font-size: var(--fontSmall);
   color: var(--purpleDark);
-  background: var(--white);
+  background: var(--lightMode);
 }
 
 .container {
@@ -60,7 +62,7 @@ header {
   height: 4rem;
   display: flex;
   align-items: center;
-  background:var(--white);
+  background: var(--purpleMedium);
   box-shadow: 0 0.625rem .9rem rgba(0, 0, 0, 0.6);
 }
 
@@ -141,7 +143,7 @@ nav ul {
   flex-direction: column;
   justify-content: center;
   gap: 80px;
-  /* background: var(--white); */
+  /* background: var(--lightMode); */
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.6);
 }
 .collapse li {
@@ -181,7 +183,7 @@ nav ul {
 }
 
 .dark {
-  background: #1f0321;
+  background: var(--darkMode);
 }
 
 .start,
@@ -280,7 +282,7 @@ h1 .letter {
   width:100%;
   margin-right: -.5rem;
   border-radius: 100%;
-  background: var(--white);
+  background: var(--lightMode);
   border: 0.31rem solid var(--purpleLight);
   transition: .3s all ease;
 }
@@ -345,7 +347,7 @@ footer {
   width: 100%;
   height: 5rem;
   font-family: var(--oleoScript);
-  background: var(--purpleLight);
+  background: var(--purpleMedium);
 }
 
 @media screen and (max-width: 860px) {
