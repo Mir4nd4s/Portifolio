@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Vanessa Miranda</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="./assets/logoLight.png" alt="">
+            </div>
+            <nav>
+                <div class="menu" onclick="opened()">
+                <div class="exit" onclick="closed()"></div>
+                </div>
+                <ul id="list">
+                    <li>
+                        <a href="#about" class="title">
+                            <h1><span class="letter">S</span>obre</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="title">
+                        <h1><span class="letter">S</span>kills</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#lab" class="title">
+                            <h1><span class="letter">L</span>aboratório</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contacts" class="title">
+                            <h1><span class="letter">C</span>ontato</h1>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="button">
+                <div class="ball"></div>
+            </div>
+        </header>
+
+        <section class="start">
+            <div class="box"> 
+                <h2>Olaaaá 👋</h2>
+                <h1>Sou Vanessa Miranda,</h1>
+                <p>"Sou técnica em Mecatrônica (IFPE), e me apaixonei por tecnologia e design, busco sempre me aprimorar, seja por cursos ou participando de desafios relacionados a área de Desenvolvimento Web."</p>
+            </div>
+            <div class="image">
+                <img src="./assets/image/desenho.svg" alt="">
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="box aboutBox">
+                <div class="circle">
+                    <img src="./assets/Me.jpg" alt="">
+                </div>
+                <div class="icons">
+                    <div>
+                        <a href="https://www.instagram.com/mir4cod3s/" target="_blank">
+                            <img src="./assets/icons/instagram.svg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/frontend-vanessamiranda/" target="_blank">
+                            <img src="./assets/icons/linkedin.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="title">
+                    <h1><span class="letter">S</span>obre</h1>
+                </div>
+                <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas (FIAP). Tenho voltado meus estudos para área de Frontend, com Figma, Html5, Css, JavaScript, Bootstrap e iniciando em React. Sou uma desenvolvedora em construção, com um toque de design!</p><br>
+                <p>Sou uma pessoa otimista, focada, gosto de aprender coisas novas e me adapto a mudança.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="title">
+                <h1><span class="letter">S</span>kill</h1>
+            </div>
+            <div class="carrousel">
+                <div class="">
+                    <img src="./assets/image/html.png" alt="">
+                    <p class="orange">Html</p>
+                </div>
+                <div>
+                    <img src="./assets/image/css.png" alt="">
+                    <p class="blue">Css</p>
+                </div>
+                <div>
+                    <img src="./assets/image/js.png" alt="">
+                    <p class="yellow">Js</p>
+                </div>
+                <div>
+                    <img src="./assets/image/bootstrap.png" alt="">
+                    <p class="purple">Bootstrap</p>
+                </div>
+                <div>
+                    <img src="./assets/image/figma.png" alt="">
+                    <p class="black">Figma</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="lab" class="lab">
+            <div class="title">
+                <h1><span class="letter">L</span>aboratório</h1>
+            </div>
+        </section>
+
+        <section id="contacts" class="contact">
+            <div class="content">
+                <div class="title">
+                    <h1><span class="letter">C</span>ontato</h1>
+                </div>
+                <p>Fique à vontade para entrar em contato.</p>
+            </div>
+            <div class="contacts">
+                <div class="item">
+                    <img src="./assets/icons/email.svg" alt="">
+                    <a href="mailto:miranda.melo@outlook.com.br" target="_blank">Email</a>
+                </div>
+                <div class="item">
+                    <img src="./assets/icons/github.svg" alt="">
+                    <a href="https://github.com/Mir4nd4s" target="_blank">Github</a>
+                </div>
+                <div class="item">
+                    <img src="./assets/icons/linkedin.svg" alt="">
+                    <a href="https://www.linkedin.com/in/frontend-vanessamiranda/" target="_blank">Linkedin</a>
+                </div>
+                <div class="item">
+                    <img src="./assets/icons/whatsapp.svg" alt="">
+                    <a href="https://bit.ly/3Ru8HkX" target="_blank">Whatsapp</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h5>© By Vanessa Miranda</h5>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
