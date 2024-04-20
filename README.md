@@ -24,4 +24,4 @@ Para o desenvolvimento deste site utilizei as seguintes ferramentas:
 ---
 
 <h2>🦄 Autor</h2>
-<a href="www.linkedin.com/in/dev-vanessamiranda/">Linkedin</a> - Feito com 💜 por mim!
+<abutton color="blue" href="https://www.linkedin.com/in/dev-vanessamiranda/">Linkedin</a> - Feito com 💜 por mim!
