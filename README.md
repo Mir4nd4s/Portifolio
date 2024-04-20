@@ -24,4 +24,4 @@ Para o desenvolvimento deste site utilizei as seguintes ferramentas:
 ---
 
 <h2>🦄 Autor</h2>
-Feito com 💜 por mim! [![Linkedin Badge](https://img.shields.io/badge/Linkedin-323330?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/dev-vanessamiranda/)
+Feito com 💜 por mim! ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)(https://www.linkedin.com/in/dev-vanessamiranda/)
