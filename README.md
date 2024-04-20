@@ -24,4 +24,4 @@ Para o desenvolvimento deste site utilizei as seguintes ferramentas:
 ---
 
 <h2>🦄 Autor</h2>
-![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) - Feito com 💜 por mim!
+![Static Badge](https://img.shields.io/badge/Linkedin-blue) - Feito com 💜 por mim!
